@@ -4,7 +4,7 @@ import CabinTable from "../features/cabins/CabinTable";
 import Button from "../ui/Button";
 import CreateCabinForm from "../features/cabins/CreateCabinForm";
 import { useState } from "react";
-import AddCabin from "../features/cabins/addCabin";
+import AddCabin from "../features/cabins/AddCabin";
 import CabinTableOperations from "../features/cabins/CabinTableOperations";
 import styled from "styled-components";
 // const Styleddiv = styled.div`
