@@ -174,7 +174,7 @@ function DurationChart({confirmStays}){
             <ResponsiveContainer width="100%" height={240}>
                 <PieChart >
                     <Pie 
-                        data={data02}
+                        data={data}
                         nameKey="duration"
                         dataKey="value"
                         innerRadius={85}
@@ -183,7 +183,7 @@ function DurationChart({confirmStays}){
                         cy="50%"
                         paddingAngle={3}
                     >
-                        {data02.map((entry)=>(
+                        {data.map((entry)=>(
                             <Cell fill={entry.color}
                             stroke={entry.color}
                             key={entry.duration}/>
