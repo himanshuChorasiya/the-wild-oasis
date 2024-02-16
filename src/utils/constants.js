@@ -1,0 +1,1 @@
+export const PAZE_SIZE = 15;
